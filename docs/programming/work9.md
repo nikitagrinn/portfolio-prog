@@ -126,15 +126,18 @@ markdown_extensions:
 
 В проекте (например, в **Теме 6**) потребовалось добавить презентацию (PDF) так, чтобы она отображалась прямо на странице сайта, а не скачивалась как отдельный файл.
 
-В Markdown нет стандартного синтаксиса для предпросмотра PDF, поэтому была использована связка Markdown и HTML-тегов `<object>` / `<embed>`:
+В Markdown нет стандартного синтаксиса для предпросмотра PDF, поэтому была использована связка Markdown и HTML-тега `<iframe>`:
 
 ```html
-<div style="text-align: center;">
-  <object data="Pattern-Strategiya-Strategy.pdf" type="application/pdf" width="100%" height="600px">
-    <p>Ваш браузер не поддерживает встроенное отображение PDF. 
-    <a href="Pattern-Strategiya-Strategy.pdf">Скачайте презентацию по этой ссылке</a>.</p>
-  </object>
-</div>
+<iframe 
+  src="../Pattern-Strategiya-Strategy.pdf"
+  width="100%"
+  height="850px"
+  style="border: none; border-radius: 8px;"
+>
+  Ваш браузер не поддерживает встроенный просмотр PDF.
+  <a href="../Pattern-Strategiya-Strategy.pdf">Скачать PDF</a>
+</iframe>
 ```
 
 Этот подход позволяет:
