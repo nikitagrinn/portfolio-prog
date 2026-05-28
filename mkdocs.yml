@@ -1,0 +1,59 @@
+site_name: Портфолио по программированию
+site_description: Работы по дисциплине «Программирование» — Гриненко Никита
+site_author: Гриненко Никита Дмитриевич
+site_url: https://nikitagrinn.github.io/portfolio-prog/
+
+theme:
+  name: material
+  language: ru
+
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/weather-night
+        name: Темная тема
+
+    - scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/weather-sunny
+        name: Светлая тема
+
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - search.highlight
+    - content.code.copy
+
+plugins:
+  - search
+
+markdown_extensions:
+  - admonition
+  - tables
+  - toc:
+      permalink: true
+  - pymdownx.highlight
+  - pymdownx.superfences
+  - md_in_html
+
+nav:
+  - Главная: index.md
+  - Обо мне: about.md
+
+  - Программирование:
+      - Работа с Git: programming/work0.md
+      - Тема 1. Two Sum: programming/work1.md
+      - Тема 2. Вычисление деления: programming/work2.md
+      - Тема 3. Бинарное дерево. Рекурсия: programming/work3.md
+      - Тема 5. Итераторы, генераторы, сопрограммы: programming/work5.md
+      - Тема 6. Паттерн «Стратегия»: programming/work6.md
+      - Тема 7. Паттерны проектирования (Декоратор): programming/work7.md
+      - Тема 8. Паттерн «Одиночка»: programming/work8.md
+
+  - Контакты: contacts.md
