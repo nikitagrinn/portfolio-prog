@@ -9,26 +9,35 @@ theme:
 
   palette:
     - scheme: default
-      primary: indigo
-      accent: indigo
+      primary: teal
+      accent: cyan
       toggle:
         icon: material/weather-night
         name: Темная тема
 
     - scheme: slate
-      primary: indigo
-      accent: indigo
+      primary: blue grey
+      accent: cyan
       toggle:
         icon: material/weather-sunny
         name: Светлая тема
 
+  font:
+    text: Roboto
+    code: Fira Code
+
   features:
+    - navigation.instant
+    - navigation.tracking
     - navigation.tabs
     - navigation.sections
     - navigation.expand
     - navigation.top
     - search.highlight
     - content.code.copy
+
+extra_css:
+  - stylesheets/extra.css
 
 plugins:
   - search
