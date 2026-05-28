@@ -16,4 +16,5 @@
 | 6 | Тема 6 | [Паттерн «Стратегия» (выступление)](programming/work6.md) | Python, паттерны, SOLID |
 | 7 | Тема 7 | [Паттерн «Декоратор»](programming/work7.md) | Python, ABC, ЦБ РФ API |
 | 8 | Тема 8 | [Паттерн «Одиночка»](programming/work8.md) | Python, Singleton, matplotlib |
-| 9 | Тема 9 | [Создание сайта-портфолио (MkDocs)](programming/work9.md) | MkDocs, CI/CD, Markdown |
+| 9 | Тема 9 | [Основные концепции ООП на Python](programming/work9.md) | ООП, GitHub Flow, LLM |
+| 10 | Тема 10 | [Создание сайта-портфолио (MkDocs)](programming/work10.md) | MkDocs, CI/CD, Markdown |

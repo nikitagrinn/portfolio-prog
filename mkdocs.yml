@@ -64,6 +64,7 @@ nav:
       - Тема 6. Паттерн «Стратегия»: programming/work6.md
       - Тема 7. Паттерны проектирования (Декоратор): programming/work7.md
       - Тема 8. Паттерн «Одиночка»: programming/work8.md
-      - Тема 9. Создание сайта-портфолио (MkDocs): programming/work9.md
+      - Тема 9. Основные концепции ООП на Python: programming/work9.md
+      - Тема 10. Создание сайта-портфолио (MkDocs): programming/work10.md
 
   - Контакты: contacts.md
