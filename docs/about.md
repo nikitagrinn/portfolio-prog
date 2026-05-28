@@ -10,4 +10,6 @@
 
 **Курс:** 2 курс, группа ПОО-2025
 
-**GitHub:** [VUS_programming](https://github.com/)
+**Профиль GitHub:** [nikitagrinn](https://github.com/nikitagrinn)
+
+**Репозиторий:** [portfolio-prog](https://github.com/nikitagrinn/portfolio-prog)
